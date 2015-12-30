@@ -3464,7 +3464,7 @@ input, textarea {
       color: #dc3c4b; }
   @media screen and (min-width: 992px) {
     .fixed .nav > ul > li > a {
-		padding-bottom: 25px;
+		padding-bottom: 25px;}
       /*color: #8c8c8c; } }*/
   .fixed .nav-panel {
     padding-top: 13px; padding-bottom: 0px;}
