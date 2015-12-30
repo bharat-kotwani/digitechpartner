@@ -15,6 +15,7 @@ def aboutus(request):
 def contactus(request):
     return render_to_response('contact-us.html',{})
 
-def
+def enquiry(request):
+    return render_to_response('enquiry.html',{})
 
 #*******HTML REDIRECTS END******#

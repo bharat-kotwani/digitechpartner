@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/DigitechPartner/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -117,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/digiapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.494863">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -152,10 +152,10 @@
         <option value="$PROJECT_DIR$/templates/portfolio.html" />
         <option value="$PROJECT_DIR$/templates/aboutus.html" />
         <option value="$PROJECT_DIR$/templates/master.html" />
-        <option value="$PROJECT_DIR$/DigitechPartner/urls.py" />
         <option value="$PROJECT_DIR$/templates/contact-us.html" />
         <option value="$PROJECT_DIR$/templates/enquiry.html" />
         <option value="$PROJECT_DIR$/digiapp/views.py" />
+        <option value="$PROJECT_DIR$/DigitechPartner/urls.py" />
       </list>
     </option>
   </component>
@@ -678,7 +678,7 @@
     <entry file="file://$PROJECT_DIR$/DigitechPartner/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -714,7 +714,7 @@
     <entry file="file://$PROJECT_DIR$/digiapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.494863">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding />
         </state>
       </provider>

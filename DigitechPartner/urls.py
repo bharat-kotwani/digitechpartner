@@ -23,4 +23,5 @@ urlpatterns = [
     url(r'^web-portfolio/', 'digiapp.views.portfolio'),
     url(r'^about-us/', 'digiapp.views.aboutus'),
     url(r'^contact-us/','digiapp.views.contactus'),
+    url(r'^enquiry/','digiapp.views.enquiry'),
 ]
