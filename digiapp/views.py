@@ -12,4 +12,9 @@ def portfolio(request):
 def aboutus(request):
     return render_to_response('aboutus.html',{})
 
+def contactus(request):
+    return render_to_response('contact-us.html',{})
+
+def
+
 #*******HTML REDIRECTS END******#

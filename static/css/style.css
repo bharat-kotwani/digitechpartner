@@ -3455,6 +3455,8 @@ input, textarea {
 
 .fixed {
   background: #fff;
+  background-image: url(../../static/img/giphy.gif);
+  background-position-y: 90px;
   z-index: 99999; }
   .fixed .info-panel a {
     color: #8c8c8c; }
@@ -3463,7 +3465,7 @@ input, textarea {
   @media screen and (min-width: 992px) {
     .fixed .nav > ul > li > a {
 		padding-bottom: 25px;
-      color: #8c8c8c; } }
+      /*color: #8c8c8c; } }*/
   .fixed .nav-panel {
     padding-top: 13px; padding-bottom: 0px;}
     @media screen and (max-width: 992px) {
