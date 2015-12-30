@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %} | Digitech Partner</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,300,200,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Serif:400italic' rel='stylesheet' type='text/css'>
+    {% block meta %}{% endblock %}
+    <link rel="stylesheet" href="{% static "css/font-awesome.min.css"%}">
+    <link rel="stylesheet" href="{% static "css/font.css"%}">
+    <link rel="stylesheet" href="{% static "css/bootstrap.min.css"%}">
+    <link rel="stylesheet" href="{% static "css/style.css"%}">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    {% block css %}{% endblock %}
+</head>
+<body>
+<!-- LOADER -->
+        <div id="loader">
+            <div class="loader">
+                <img class="anim-loader" src="" alt="Digitech Partner" />
+            </div>
+        </div>
+        <!-- HEADER -->
+        <header class="header" >
+                <div class="container">
+                    <div class="nav-panel clearfix">
+                        <a href="/index" class="logo">
+                            <img class="logo-light logo-standart" src="img/logoh.PNG" alt="Digitech Partner" />
+                            <img class="logo-light logo-retina" src="img/logoh.PNG" alt="Digitech Partner" />
+                            <img class="logo-dark logo-standart" src="img/logoh.PNG" alt="Digitech Partner" />
+                            <img class="logo-dark logo-retina" src="img/logoh.PNG" alt="Digitech Partner" />
+                        </a>
+                        <div class="info-panel">
+
+                            <a class="soc-icon" href="#"><i class="fa fa-bars"></i></a>
+                            <a class="open-menu" href="#"><i class="fa fa-bars"></i></a>
+                        </div>
+                        <nav class="nav">
+                            <ul>
+                                <li class="full-menu-parent">
+                                    <a href="/index">Home</a><span class="fa open-sb-menu fa-chevron-down"></span>
+
+                                </li>
+                                <li><a href="/about-us">About Us</a></li>
+                                <li class="sub-menu-parent"><a href="/services">Services</a>
+                                    <span class="fa open-sb-menu fa-chevron-down"></span>
+                                    <ul class="sub-menu sb"><li class="sub-menu-parent"><a href="#">Web Designing </a>
+
+                                      </li><li><a href="#">Web Development</a></li> <li><a href="#">Support &amp; Maintenance</a></li> <li><a href="#">Print Media</a>
+                                            </li>
+
+                                    </ul>
+                                </li>
+                                <li><a href="/web-portfolio">Portfolio</a></li>
+
+                                <li class="full-menu-parent">
+                                    <a href="/clients">Clients</a><span class="fa open-sb-menu fa-chevron-down"></span>
+
+                                </li>
+                                <li><a href="/enquiry">Enquiry</a></li>
+                                <li><a href="/contact-us">Contact Us</a>
+
+                                </li>
+                            </ul>
+                            <a class="close-menu" href="#"><i class="fa fa-times"></i></a>
+                        </nav>
+                    </div>
+                </div>
+        </header>
+        {% block headerimage %}{% endblock %}
+        {% block content %}{% endblock %}
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3>Get In Touch</h3>
+                        <ul class="ftr-list">
+
+                            <li><i class="fa fa-phone"></i><span>Telephone:</span> <a href="tel:919899636669"> +91*9899636669</a></li>
+                            <li><i class="fa fa-envelope-o"></i><span>E-mail:</span> <a href="support@infotechmediasolutions.com">support@infotechmediasolutions.com</a></li>
+                            <li><i class="fa fa-skype"></i><span>Skype:</span> <a href="tel:bkotwani"> bkotwani</a></li>
+                            <li><i class="fa fa-facebook-official"></i><span>Facebook:</span> <a href="#"> bharat.kotwani1@facebook.com</a></li>
+                        </ul>
+                        <div class="ftr-social">
+                            <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-vine"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-pinterest-p"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Legal</h3>
+                        <ul class="recent-list">
+                            <li><a href="/privacy-policy">Privacy Policy</li>
+                            <li><a href="/terms-and-conditions">Terms &amp; Conditions</li>
+                            <li><a href="disclaimer/">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Get free quote</h3>
+                        <div class="contact-us" >
+                            <input type="text" placeholder="Full  Name" required="">
+                            <input type="text" placeholder="Contact Number" required="">
+                            <input type="email" placeholder="Email Address" required="">
+                            <textarea placeholder="Your Requirement"></textarea>
+                            <input class="submit" type="submit" value="Send message">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-row">
+                <div class="container text-center">
+
+                    <div class="copy">&copy; {% now "Y" %} Digitech Partner - ALL RIGHTS RESERVED</div>
+                </div>
+            </div>
+        </footer>
+        <div class="search-panel">
+            <div class="container clearfix">
+                <input type="search" class="search-input" placeholder="Start typing..."/>
+                <a href="#" class="fa fa-times close-search"></a>
+            </div>
+        </div>
+        <div class="social-area">
+            <a href="#" class="fa fa-times close-social"></a>
+            <div class="social-area-box ">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+        <a class="scroll-top" href="#"><i class="fa fa-angle-up"></i></a>
+        <script src="{%  static "js/jquery-1.11.3.min.js" %}"></script>
+
+        <script src="{%  static "js/idangerous.swiper.min.js" %}"></script>
+        <script src="{%  static "js/jquery.countTo.js" %}"></script>
+        <script src="{%  static "js/jquery.easypiechart.min.js" %}"></script>
+        <script src="{%  static "js/masonry.pkgd.min.js" %}"></script>
+        <script src="{%  static "js/jquery.mixitup.js" %}"></script>
+        <script src="{%  static "js/main.js" %}"></script>
+        {% block js %}{% endblock %}
+</body>
+</html>
