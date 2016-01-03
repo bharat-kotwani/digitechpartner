@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfc46ab0-4a8b-4227-b4db-6023fbad7181" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/master.html" afterPath="$PROJECT_DIR$/templates/master.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DigitechPartner/urls.py" afterPath="$PROJECT_DIR$/DigitechPartner/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/digiapp/views.py" afterPath="$PROJECT_DIR$/digiapp/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DigitechPartner/settings.py" afterPath="$PROJECT_DIR$/DigitechPartner/settings.py" />
     </list>
     <ignored path="DigitechPartner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,21 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="master.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/master.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3327032">
+            <state vertical-scroll-proportion="-2.581818">
               <caret line="90" column="153" selection-start-line="90" selection-start-column="153" selection-end-line="90" selection-end-column="153" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DigitechPartner/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.9417808">
+              <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -150,7 +144,6 @@
       <list>
         <option value="$PROJECT_DIR$/templates/portfolio.html" />
         <option value="$PROJECT_DIR$/templates/aboutus.html" />
-        <option value="$PROJECT_DIR$/DigitechPartner/settings.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/contact-us.html" />
         <option value="$PROJECT_DIR$/templates/enquiry.html" />
@@ -158,6 +151,7 @@
         <option value="$PROJECT_DIR$/DigitechPartner/urls.py" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/templates/master.html" />
+        <option value="$PROJECT_DIR$/DigitechPartner/settings.py" />
       </list>
     </option>
   </component>
@@ -813,14 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DigitechPartner/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/enquiry.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.923077">
@@ -855,8 +841,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/master.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3327032">
+        <state vertical-scroll-proportion="-2.581818">
           <caret line="90" column="153" selection-start-line="90" selection-start-column="153" selection-end-line="90" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DigitechPartner/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9417808">
+          <caret line="121" column="1" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
           <folding />
         </state>
       </provider>
