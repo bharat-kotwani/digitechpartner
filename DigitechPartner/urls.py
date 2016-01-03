@@ -24,4 +24,11 @@ urlpatterns = [
     url(r'^about-us/', 'digiapp.views.aboutus'),
     url(r'^contact-us/','digiapp.views.contactus'),
     url(r'^enquiry/','digiapp.views.enquiry'),
+    url(r'^our-clients/', 'digiapp.views.ourclients'),
+    url(r'^web-designing/', 'digiapp.views.webdesign'),
+    url(r'^web-development/', 'digiapp.views.webdevelop'),
+    url(r'^e-commerce/', 'digiapp.views.ecommerce'),
+    url(r'^print-media/', 'digiapp.views.printmedia'),
+    url(r'^software-development/', 'digiapp.views.softdevelop'),
+    url(r'^seo-services/', 'digiapp.views.seoservices'),
 ]

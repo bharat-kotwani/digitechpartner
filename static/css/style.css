@@ -2245,12 +2245,12 @@ p {
 
 .nav-tab-item {
   float: left;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   color: #4a4d50;
-  font-weight: 400;
-  padding: 20px 23px 16px;
+  font-weight: 500;
+  padding: 12px 12px 12px;
   margin-right: 2px;
   cursor: pointer;
   border-radius: 3px 3px 0 0; }
