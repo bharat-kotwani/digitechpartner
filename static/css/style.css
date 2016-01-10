@@ -1,5 +1,35 @@
+/* ============================================================
+   STYLE
+/* ============================================================ */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: Freedom.*/
+/* Version: 1.0 Initial Release*/
+/* Build Date: 15-10-2015*/
+/* Author: Oleg.*/
+/* Website: http://moonart.net.ua/freedom/ 
+/* Copyright: (C) 2015 */
+/*---------------------------------------------------------*/
+/* ============================================================
+   SUMMARY
+/* ============================================================
 
+	01. LOADER
+	02. FONTS
+	03. RESET
+	04. PLUGINS STYLE
+	05. BASE STYLE
+	06. COMMON STYLE
+	07. ANIMATE STYLE
+	08. HEADER
+	09. ONE PAGES
+	10. BLOG
+	11. PORTFOLIO
+	12. SHOP
+	13. FOOTER
 
+  ============================================================ */
 /* ============================================================
    . VARIABLE
 /* ============================================================ */
@@ -1636,7 +1666,7 @@ p {
   color: #162532; }
 
 .section {
-  padding: 65px 0 45px; }
+  padding: 84px 0 65px; }
   @media screen and (max-width: 992px) {
     .section {
       padding: 64px 0 45px; } }
@@ -2245,12 +2275,12 @@ p {
 
 .nav-tab-item {
   float: left;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   color: #4a4d50;
-  font-weight: 500;
-  padding: 12px 12px 12px;
+  font-weight: 400;
+  padding: 20px 23px 16px;
   margin-right: 2px;
   cursor: pointer;
   border-radius: 3px 3px 0 0; }
@@ -3455,8 +3485,6 @@ input, textarea {
 
 .fixed {
   background: #fff;
-  background-image: url(../../static/img/giphy.gif);
-  background-position-y: 90px;
   z-index: 99999; }
   .fixed .info-panel a {
     color: #8c8c8c; }
@@ -3464,8 +3492,8 @@ input, textarea {
       color: #dc3c4b; }
   @media screen and (min-width: 992px) {
     .fixed .nav > ul > li > a {
-		padding-bottom: 25px;}
-      /*color: #8c8c8c; } }*/
+		padding-bottom: 25px;
+      color: #8c8c8c; } }
   .fixed .nav-panel {
     padding-top: 13px; padding-bottom: 0px;}
     @media screen and (max-width: 992px) {
@@ -7793,7 +7821,7 @@ button.button {
 /* ============================================================ */
 .footer {
   background: #1f1f1f;
-  padding: 50px 0px 10px 0px; }
+  padding: 60px 0; }
   @media screen and (max-width: 481px) {
     .footer {
       padding: 30px 0; } }
@@ -7840,7 +7868,7 @@ button.button {
 .recent-list {
   list-style: none; }
   .recent-list li {
-   }
+    padding-bottom: 30px; }
     .recent-list li:last-of-type {
       padding-bottom: 0; }
   .recent-list a {
@@ -7900,7 +7928,8 @@ button.button {
 
 .copy-row {
   border-top: 1px solid #2a2a2a;
-  }
+  margin-top: 50px;
+  padding-top: 50px; }
   @media screen and (max-width: 481px) {
     .copy-row {
       margin-top: 30px;

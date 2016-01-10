@@ -39,4 +39,18 @@ def softdevelop(request):
 
 def seoservices(request):
     return render_to_response('seoservices.html',{})
+
+def services(request):
+    return render_to_response('services.html',{})
+
+
+
+def termcondition(request):
+    return render_to_response('term&condition.html',{})
+
+def disclaimers(request):
+    return render_to_response('disclaimers.html',{})
+
+def privacypolicy(request):
+    return render_to_response('privacy-policy.html',{})
 #*******HTML REDIRECTS END******#

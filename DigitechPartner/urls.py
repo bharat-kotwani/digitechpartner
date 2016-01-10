@@ -31,4 +31,11 @@ urlpatterns = [
     url(r'^print-media/', 'digiapp.views.printmedia'),
     url(r'^software-development/', 'digiapp.views.softdevelop'),
     url(r'^seo-services/', 'digiapp.views.seoservices'),
+    url(r'services/','digiapp.views.services'),
+
+    url(r'terms-and-conditions/','digiapp.views.termcondition'),
+    url(r'disclaimer/','digiapp.views.disclaimers'),
+    url(r'privacy-policy/','digiapp.views.privacypolicy')
+
+
 ]

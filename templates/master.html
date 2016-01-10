@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{% static "css/font.css"%}">
     <link rel="stylesheet" href="{% static "css/bootstrap.min.css"%}">
     <link rel="stylesheet" href="{% static "css/style.css"%}">
-    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="{% static 'img/logo.ico' %}" rel="shortcut icon" type="image/x-icon" />
     {% block css %}{% endblock %}
 </head>
 <body>
@@ -26,17 +26,15 @@
             </div>
         </div>
         <!-- HEADER -->
-        <header class="header" >
+        <header class="header header-type-2 business-header" >
                 <div class="container">
                     <div class="nav-panel clearfix">
-                        <a href="/index" class="logo">
-                            <img class="logo-light logo-standart" src="img/logoh.PNG" alt="Digitech Partner" />
-                            <img class="logo-light logo-retina" src="img/logoh.PNG" alt="Digitech Partner" />
-                            <img class="logo-dark logo-standart" src="img/logoh.PNG" alt="Digitech Partner" />
-                            <img class="logo-dark logo-retina" src="img/logoh.PNG" alt="Digitech Partner" />
+                         <a href="/index" class="logo">
+                            <img class="logo-light logo-standart" src="{% static "img/dp logo.png" %}" style="height:50px" alt="Digitech Partner" />
+                            <img class="logo-light logo-retina" src="{% static "img/dp logo.png" %}" style="height:50px" alt="Digitech Partner" />
                         </a>
                         <div class="info-panel">
-
+                            <a class="search-icon" href="#"><i class="fa fa-search"></i></a>
                             <a class="soc-icon" href="#"><i class="fa fa-bars"></i></a>
                             <a class="open-menu" href="#"><i class="fa fa-bars"></i></a>
                         </div>
@@ -67,7 +65,7 @@
                                     <a href="/our-clients/">Clients</a><span class="fa open-sb-menu fa-chevron-down"></span>
 
                                 </li>
-                                <li><a href="/enquiry/">Enquiry</a></li>
+
                                 <li><a href="/contact-us/">Contact Us</a>
 
                                 </li>
@@ -83,11 +81,19 @@
         <footer class="footer">
             <div class="container">
                 <div class="row">
+
+                  <div class="col-sm-3">
+                        <a class="ftr-logo" href="#"><img src="img/ftr-logo.png" alt=""></a>
+                        <p class="ftr-text">
+                            Perspiciatis unde omnis iste natus doxes sit voluptatem accusantium doloremque la dantiumeaque ipsa quae ab illo veritatis et quasi architecto
+                        </p>
+                    </div>
+
                     <div class="col-sm-4">
                         <h3>Get In Touch</h3>
                         <ul class="ftr-list">
 
-                            <li><i class="fa fa-phone"></i><span>Telephone:</span> <a href="tel:919899636669"> +91*9899636669</a></li>
+                            <li><i class="fa fa-phone"></i><span>Telephone:</span> <a href="tel:919899636669"> +91-9899636669</a></li>
                             <li><i class="fa fa-envelope-o"></i><span>E-mail:</span> <a href="mailto:support@digitechpartner.com">support@digitechpartner.com</a></li>
                             <li><i class="fa fa-skype"></i><span>Skype:</span> <a href="tel:bkotwani"> bkotwani</a></li>
                             <li><i class="fa fa-facebook-official"></i><span>Facebook:</span> <a href="#"> bharat.kotwani1@facebook.com</a></li>
@@ -100,14 +106,9 @@
                             <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <h3>Legal</h3>
-                        <ul class="recent-list">
-                            <li><a href="/privacy-policy">Privacy Policy</li>
-                            <li><a href="/terms-and-conditions">Terms &amp; Conditions</li>
-                            <li><a href="disclaimer/">Disclaimer</a></li>
-                        </ul>
-                    </div>
+
+
+
                     <div class="col-sm-4">
                         <h3>Get free quote</h3>
                         <div class="contact-us" >
