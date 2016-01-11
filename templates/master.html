@@ -4,8 +4,17 @@
     {% load staticfiles %}
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %} | Digitech Partner</title>
-    <meta charset="utf-8">
-<meta name="description" content="DIGITECHPARTNER,SOFTWARE DIGITECH, SOFTWARE PARTNER">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="author" content="www.digitechpartner.com">
+    <meta name="description" content="Wedding Vendors, Venue,Parlor,Photographer,Jewlry,Lehnga, Saree, Sherwani,Watches and more @ theweddingshopp.com" />
+<meta name="keywords" content="Website,Website Development,Designing,Web Designing,Website Designing,Domain,Photography,Retouching,Domain Registration,CMS,ERP,Content,Content Writing,E Commerce,Print,Media,Print Media,Development,Digitech,Partner,Digitech Partner,Software,Software Development,Search,Search Engine,Search Engine Optimization,Social Marketing,Social,Social Media,SEO,SMO,Web,Support,Maintanance,Programming,Coding,Hosting,Outsourcing" />
+
+    <meta name="generator" content="www.digitechpartner.com" />
+    <meta name="robots" content="index,follow" />
+
+    <meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -16,6 +25,24 @@
     <link rel="stylesheet" href="{% static "css/font.css"%}">
     <link rel="stylesheet" href="{% static "css/bootstrap.min.css"%}">
     <link rel="stylesheet" href="{% static "css/style.css"%}">
+<style>
+    .recent-list li {
+    padding-bottom: 0;
+}
+    .section {
+    padding: 35px 0 25px;
+}
+    .footer {
+
+    padding: 10px 0;
+}
+
+
+.copy-row {
+   
+    padding-top: 2px;
+}
+</style>
     <link href="{% static 'img/logo.ico' %}" rel="shortcut icon" type="image/x-icon" />
     {% block css %}{% endblock %}
 </head>
@@ -27,12 +54,14 @@
             </div>
         </div>
         <!-- HEADER -->
-        <header class="header header-type-2 business-header" >
+        <header class="header header-type-3 gym-header" >
                 <div class="container">
                     <div class="nav-panel clearfix">
                          <a href="/index" class="logo">
                             <img class="logo-light logo-standart" src="{% static "img/dp logo.png" %}" style="height:50px" alt="Digitech Partner" />
                             <img class="logo-light logo-retina" src="{% static "img/dp logo.png" %}" style="height:50px" alt="Digitech Partner" />
+                              <img class="logo-dark logo-standart" src="{% static "img/dp logo.png" %}" style="height:50px" alt="Digitech Partner" />
+                            <img class="logo-dark logo-retina" src="{% static "img/dp logo.png" %}" style="height:50px" alt="Digitech Partner" />
                         </a>
                         <div class="info-panel">
                             <a class="search-icon" href="#"><i class="fa fa-search"></i></a>
@@ -83,11 +112,24 @@
             <div class="container">
                 <div class="row">
 
-                  <div class="col-sm-3">
-                        <a class="ftr-logo" href="#"><img src="img/ftr-logo.png" alt=""></a>
-                        <p class="ftr-text">
-                            Perspiciatis unde omnis iste natus doxes sit voluptatem accusantium doloremque la dantiumeaque ipsa quae ab illo veritatis et quasi architecto
-                        </p>
+                  <div class="col-sm-4">
+                      <a class="ftr-logo" href="/"><h1 style="font-family: cursive; font-size: 30px"><strong><span style="color:#dc3c46;">Digitech </span><span style="color:red;">
+                            <small style="color: #e0a047;">Partner</small></span></strong></h1>
+
+
+
+
+                        </a>
+
+
+                        <ul class="recent-list">
+                            <li><a href="">We have a strong focus on solving drug development challenges.</a></li>
+                            <li><a href="">We work in close partnership with our clients.</a></li>
+                            <li><a href="">We have in-depth therapeutic area knowledge to guide our modeling efforts.</a></li>
+                            <li><a href="">We have the ability to integrate vast amount of data including existing literature data.</a></li>
+                            <li><a>We offer integrated pharmacometric solutions.</a></li>
+                        </ul>
+
                     </div>
 
                     <div class="col-sm-4">
