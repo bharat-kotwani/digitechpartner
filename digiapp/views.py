@@ -53,4 +53,7 @@ def disclaimers(request):
 
 def privacypolicy(request):
     return render_to_response('privacy-policy.html',{})
+
+def robots(request):
+    return render_to_response('robots',{})
 #*******HTML REDIRECTS END******#

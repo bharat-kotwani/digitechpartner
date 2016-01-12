@@ -35,7 +35,7 @@ urlpatterns = [
 
     url(r'terms-and-conditions/','digiapp.views.termcondition'),
     url(r'disclaimer/','digiapp.views.disclaimers'),
-    url(r'privacy-policy/','digiapp.views.privacypolicy')
-
+    url(r'privacy-policy/','digiapp.views.privacypolicy'),
+    url(r'robots.txt/','digiapp.views.robots')
 
 ]
