@@ -3495,7 +3495,7 @@ input, textarea {
 		padding-bottom: 25px;
       color: #8c8c8c; } }
   .fixed .nav-panel {
-    padding-top: 13px; padding-bottom: 0px;}
+    padding-top: 13px; padding-bottom: 13px;}
     @media screen and (max-width: 992px) {
       .fixed .nav-panel {
         padding-top: 8px; } }
@@ -5779,7 +5779,7 @@ z-index: 50;}
   padding-bottom: 0; }
 
 .gym-header .logo {
-  margin-top: 12px; }
+  margin-top: 0px; }
   @media screen and (max-width: 992px) {
     .gym-header .logo {
       margin-top: 5px; } }
