@@ -6,203 +6,214 @@
 <meta name="keywords" content="Open Source web development,Open Source,Professional,Professional Development,Web Design Gurgaon,Web Application,Dynamic Website,Static Website,Responsive Design,Responsive Website,Website,Website Development,Designing,Web Designing,Website Designing,Domain,Photography,Retouching,Domain Registration,CMS,ERP,Content,Content Writing,E Commerce,Print,Media,Print Media,Development,Digitech,Partner,Digitech Partner,Software,Software Development,Search,Search Engine,Search Engine Optimization,Social Marketing,Social,Social Media,SEO,SMO,Web,Support,Maintanance,Programming,Coding,Hosting,Outsourcing,Google Adsence,Gurgaon,Delhi,Company,Payment,Payment Gateway,Payment Gateway Integration,E-Commerce Website,E-commerce,E Commerce Solutions,solutions,Online Payment Integration,Shopping Cart,Gateway Integration" />
 
 {% endblock %}
-{% block css %}{% endblock %}
+{% block css %}
+    <style>
+    .row{
+        margin-bottom: 30px;
+
+    }
+    </style>
+{% endblock %}
 {% block headerimage %}
 
    <div class="banner banner-template">
             <div class="container">
                 <div class="title-header">
                     <h1>our works </h1>
-                    <h6 class="header-sub-title">We Share Our Best News in the Blog Post</h6>
+                    <h6 class="header-sub-title">We Share Our Best With Clients</h6>
                 </div>
             </div>
             <div class="scroll-to mouse"><span></span></div>
             <div class="clip">
-                <div class="bg bg-bg" style="background-image:url(img/custom-bg-7.jpg)"></div>
+                <div class="bg bg-bg" style="background-image:url(/static/img/custom-bg-10.jpg)"></div>
             </div>
             <div class="overlay"></div>
         </div>
 
 {% endblock %}
 {% block content %}
-   <main class="main-portfolio start-block">
-            <div class="container">
-                <ul class="filter-list portfolio-filter">
-                    <li class="filter" data-filter="all"><a data-type="category-1">all works</a></li>
-                    <li class="filter" data-filter=".category-1"><a data-type="category-2">photo</a></li>
-                    <li class="filter" data-filter=".category-2"><a data-type="category-3">creative</a></li>
-                    <li class="filter active" data-filter=".category-3"><a data-type="category-3">Art</a></li>
-                </ul>
+  <main>
+        <section class="section section-border">
+
+            <div class="container project-container" style="padding-top: 0px;">
                 <div class="row">
-                    <div class="container-mix clearfix">
-                        <div class="col-sm-6 col-md-4 col-xs-12 mix category-1">
-                            <div class="gallery-box work-box">
-                                <a href="#">
-                                    <img src="img/pt2-1.jpg" alt="">
-                                    <div class="g-project-info">
-                                        <div class="g-project-info-inner">
-                                            <h3>Project three</h3>
-                                            <span class="g-cat">Art, Bysiness</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                    <div class="col-sm-8 col-md-8">
+                        <div class="swiper-container portfolio-slider swiper-swiper-unique-id-0 initialized" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1" id="swiper-unique-id-0">
+                            <div class="swiper-wrapper " style="width: 3750px; transform: translate3d(-750px, 0px, 0px); transition-duration: 0s; height: 499px;"><div class="swiper-slide swiper-slide-duplicate" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-3.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-2.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-3.jpg" alt="">
+                                </div>
+                            <div class="swiper-slide swiper-slide-duplicate" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="img/full-p-1.jpg" alt="">
+                                </div></div>
+                            <div class="pagination pagination-bottom pagination-swiper-unique-id-0"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch"></span></div>
+                            <div class="sl-post-prev  swiper-arrow-left"><i class="fa fa-angle-left"></i></div>
+                            <div class="sl-post-next  swiper-arrow-right"><i class="fa fa-angle-right"></i></div>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-xs-12 mix category-2">
-                            <div class="gallery-box work-box">
-                                <a href="#">
-                                    <img src="img/pt2-2.jpg" alt="">
-                                    <div class="g-project-info">
-                                        <div class="g-project-info-inner">
-                                            <h3>Project three</h3>
-                                            <span class="g-cat">Art, Bysiness</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="project-det">
+                            <h3>project details</h3>
+                            <ul class="detail-list">
+                                <li>Client: <span>Albert Dowson</span></li>
+                                <li>Date:  <span>10 may, 2015</span></li>
+                                <li>link: <span><a href="#">www.themeforest.net</a></span></li>
+                            </ul>
+                            <p>Perspiciatis unde omnis iste natus doxes sit voluptatem accusantium doloremque la dantiumeaque ipsa quae ab illo veritatis et quasi architecto beatae vitae dicta unt explicabo. Nemo enim ipsam voluptatemuia voluptas sit aspernatur aut odit. </p>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-xs-12 mix category-3">
-                            <div class="gallery-box work-box">
-                                <a href="#">
-                                    <img src="img/pt2-3.jpg" alt="">
-                                    <div class="g-project-info">
-                                        <div class="g-project-info-inner">
-                                            <h3>Project three</h3>
-                                            <span class="g-cat">Art, Bysiness</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                    </div>
+                </div><hr />
+                <div class="row">
+                    <div class="col-sm-8 col-md-8">
+                        <div class="swiper-container portfolio-slider swiper-swiper-unique-id-0 initialized" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1" id="swiper-unique-id-1">
+                            <div class="swiper-wrapper " style="width: 3750px; transform: translate3d(-750px, 0px, 0px); transition-duration: 0s; height: 499px;"><div class="swiper-slide swiper-slide-duplicate" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-3.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-2.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-3.jpg" alt="">
+                                </div>
+                            <div class="swiper-slide swiper-slide-duplicate" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="img/full-p-1.jpg" alt="">
+                                </div></div>
+                            <div class="pagination pagination-bottom pagination-swiper-unique-id-0"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch"></span></div>
+                            <div class="sl-post-prev  swiper-arrow-left"><i class="fa fa-angle-left"></i></div>
+                            <div class="sl-post-next  swiper-arrow-right"><i class="fa fa-angle-right"></i></div>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-xs-12 mix category-1">
-                            <div class="gallery-box work-box">
-                                <a href="#">
-                                    <img src="img/pt2-4.jpg" alt="">
-                                    <div class="g-project-info">
-                                        <div class="g-project-info-inner">
-                                            <h3>Project three</h3>
-                                            <span class="g-cat">Art, Bysiness</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="project-det">
+                            <h3>project details</h3>
+                            <ul class="detail-list">
+                                <li>Client: <span>Albert Dowson</span></li>
+                                <li>Date:  <span>10 may, 2015</span></li>
+                                <li>link: <span><a href="#">www.themeforest.net</a></span></li>
+                            </ul>
+                            <p>Perspiciatis unde omnis iste natus doxes sit voluptatem accusantium doloremque la dantiumeaque ipsa quae ab illo veritatis et quasi architecto beatae vitae dicta unt explicabo. Nemo enim ipsam voluptatemuia voluptas sit aspernatur aut odit. </p>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-xs-12 mix category-2">
-                            <div class="gallery-box work-box">
-                                <a href="#">
-                                    <img src="img/pt2-5.jpg" alt="">
-                                    <div class="g-project-info">
-                                        <div class="g-project-info-inner">
-                                            <h3>Project three</h3>
-                                            <span class="g-cat">Art, Bysiness</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                    </div>
+                </div><hr />
+                <div class="row">
+                    <div class="col-sm-8 col-md-8">
+                        <div class="swiper-container portfolio-slider swiper-swiper-unique-id-0 initialized" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1" id="swiper-unique-id-2">
+                            <div class="swiper-wrapper " style="width: 3750px; transform: translate3d(-750px, 0px, 0px); transition-duration: 0s; height: 499px;"><div class="swiper-slide swiper-slide-duplicate" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-3.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-2.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-3.jpg" alt="">
+                                </div>
+                            <div class="swiper-slide swiper-slide-duplicate" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="img/full-p-1.jpg" alt="">
+                                </div></div>
+                            <div class="pagination pagination-bottom pagination-swiper-unique-id-0"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch"></span></div>
+                            <div class="sl-post-prev  swiper-arrow-left"><i class="fa fa-angle-left"></i></div>
+                            <div class="sl-post-next  swiper-arrow-right"><i class="fa fa-angle-right"></i></div>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-xs-12 mix category-3">
-                            <div class="gallery-box work-box">
-                                <a href="#">
-                                    <img src="img/pt2-6.jpg" alt="">
-                                    <div class="g-project-info">
-                                        <div class="g-project-info-inner">
-                                            <h3>Project three</h3>
-                                            <span class="g-cat">Art, Bysiness</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="project-det">
+                            <h3>project details</h3>
+                            <ul class="detail-list">
+                                <li>Client: <span>Albert Dowson</span></li>
+                                <li>Date:  <span>10 may, 2015</span></li>
+                                <li>link: <span><a href="#">www.themeforest.net</a></span></li>
+                            </ul>
+                            <p>Perspiciatis unde omnis iste natus doxes sit voluptatem accusantium doloremque la dantiumeaque ipsa quae ab illo veritatis et quasi architecto beatae vitae dicta unt explicabo. Nemo enim ipsam voluptatemuia voluptas sit aspernatur aut odit. </p>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-xs-12 mix category-1">
-                            <div class="gallery-box work-box">
-                                <a href="#">
-                                    <img src="img/pt2-7.jpg" alt="">
-                                    <div class="g-project-info">
-                                        <div class="g-project-info-inner">
-                                            <h3>Project three</h3>
-                                            <span class="g-cat">Art, Bysiness</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                    </div>
+                </div><hr />
+                <div class="row">
+                    <div class="col-sm-8 col-md-8">
+                        <div class="swiper-container portfolio-slider swiper-swiper-unique-id-0 initialized" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1" id="swiper-unique-id-4">
+                            <div class="swiper-wrapper " style="width: 3750px; transform: translate3d(-750px, 0px, 0px); transition-duration: 0s; height: 499px;"><div class="swiper-slide swiper-slide-duplicate" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-3.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-2.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-3.jpg" alt="">
+                                </div>
+                            <div class="swiper-slide swiper-slide-duplicate" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="img/full-p-1.jpg" alt="">
+                                </div></div>
+                            <div class="pagination pagination-bottom pagination-swiper-unique-id-0"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch"></span></div>
+                            <div class="sl-post-prev  swiper-arrow-left"><i class="fa fa-angle-left"></i></div>
+                            <div class="sl-post-next  swiper-arrow-right"><i class="fa fa-angle-right"></i></div>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-xs-12 mix category-2">
-                            <div class="gallery-box work-box">
-                                <a href="#">
-                                    <img src="img/pt2-8.jpg" alt="">
-                                    <div class="g-project-info">
-                                        <div class="g-project-info-inner">
-                                            <h3>Project three</h3>
-                                            <span class="g-cat">Art, Bysiness</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="project-det">
+                            <h3>project details</h3>
+                            <ul class="detail-list">
+                                <li>Client: <span>Albert Dowson</span></li>
+                                <li>Date:  <span>10 may, 2015</span></li>
+                                <li>link: <span><a href="#">www.themeforest.net</a></span></li>
+                            </ul>
+                            <p>Perspiciatis unde omnis iste natus doxes sit voluptatem accusantium doloremque la dantiumeaque ipsa quae ab illo veritatis et quasi architecto beatae vitae dicta unt explicabo. Nemo enim ipsam voluptatemuia voluptas sit aspernatur aut odit. </p>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-xs-12 mix category-3">
-                            <div class="gallery-box work-box">
-                                <a href="#">
-                                    <img src="img/pt2-9.jpg" alt="">
-                                    <div class="g-project-info">
-                                        <div class="g-project-info-inner">
-                                            <h3>Project three</h3>
-                                            <span class="g-cat">Art, Bysiness</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                    </div>
+                </div><hr />
+                <div class="row">
+                    <div class="col-sm-8 col-md-8">
+                        <div class="swiper-container portfolio-slider swiper-swiper-unique-id-0 initialized" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1" id="swiper-unique-id-0">
+                            <div class="swiper-wrapper " style="width: 3750px; transform: translate3d(-750px, 0px, 0px); transition-duration: 0s; height: 499px;"><div class="swiper-slide swiper-slide-duplicate" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-3.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-1.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-2.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="/static/img/full-p-3.jpg" alt="">
+                                </div>
+                            <div class="swiper-slide swiper-slide-duplicate" style="width: 750px; height: 499px;">
+                                    <img class="img-responsive" src="img/full-p-1.jpg" alt="">
+                                </div></div>
+                            <div class="pagination pagination-bottom pagination-swiper-unique-id-0"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch"></span><span class="swiper-pagination-switch"></span></div>
+                            <div class="sl-post-prev  swiper-arrow-left"><i class="fa fa-angle-left"></i></div>
+                            <div class="sl-post-next  swiper-arrow-right"><i class="fa fa-angle-right"></i></div>
                         </div>
-                        <div class="col-sm-6 col-md-4 col-xs-12 mix category-1">
-                            <div class="gallery-box work-box">
-                                <a href="#">
-                                    <img src="img/pt2-10.jpg" alt="">
-                                    <div class="g-project-info">
-                                        <div class="g-project-info-inner">
-                                            <h3>Project three</h3>
-                                            <span class="g-cat">Art, Bysiness</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-xs-12 mix category-2">
-                            <div class="gallery-box work-box">
-                                <a href="#">
-                                    <img src="img/pt2-11.jpg" alt="">
-                                    <div class="g-project-info">
-                                        <div class="g-project-info-inner">
-                                            <h3>Project three</h3>
-                                            <span class="g-cat">Art, Bysiness</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 col-xs-12 mix category-3">
-                            <div class="gallery-box work-box">
-                                <a href="#">
-                                    <img src="img/pt2-12.jpg" alt="">
-                                    <div class="g-project-info">
-                                        <div class="g-project-info-inner">
-                                            <h3>Project three</h3>
-                                            <span class="g-cat">Art, Bysiness</span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="project-det">
+                            <h3>project details</h3>
+                            <ul class="detail-list">
+                                <li>Client: <span>Albert Dowson</span></li>
+                                <li>Date:  <span>10 may, 2015</span></li>
+                                <li>link: <span><a href="#">www.themeforest.net</a></span></li>
+                            </ul>
+                            <p>Perspiciatis unde omnis iste natus doxes sit voluptatem accusantium doloremque la dantiumeaque ipsa quae ab illo veritatis et quasi architecto beatae vitae dicta unt explicabo. Nemo enim ipsam voluptatemuia voluptas sit aspernatur aut odit. </p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="container-mix clearfix">
-                        <div class="col-sm-12 col-md-12 col-xs-12" >
-                             <div class="gallery-box work-box" style="border:1px solid gray;">Ad Space</div>
-                        </div>
-                        </div>
-                </div>
             </div>
-
-        </main>
+        </section>
+    </main>
 
 {% endblock %}
 {% block js %}{% endblock %}

@@ -18,9 +18,9 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,300,200,100' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=PT+Serif:400italic' rel='stylesheet' type='text/css'>
+    <link href='{% static "css/css.css" %}' rel='stylesheet' type='text/css'>
+        <link href='{% static "css/css2.css" %}' rel='stylesheet' type='text/css'>
+        <link href='{% static "css/css3.css" %}' rel='stylesheet' type='text/css'>
     {% block meta %}{% endblock %}
     <link rel="stylesheet" href="{% static "css/font-awesome.min.css"%}">
     <link rel="stylesheet" href="{% static "css/font.css"%}">
@@ -35,7 +35,7 @@
 }
     .footer {
 
-    padding: 10px 0;
+    padding: 40px 0;
 }
 
 
@@ -43,12 +43,16 @@
 
     padding-top: 2px;
 }
+
 </style>
     <link href="{% static 'img/logo.ico' %}" rel="shortcut icon" type="image/x-icon" />
     {% block css %}{% endblock %}
 </head>
-<body>
+<body id="image">
 <!-- LOADER -->
+
+
+
         <div id="loader">
             <div class="loader">
                 <img class="anim-loader" src="" alt="Digitech Partner" />
@@ -91,11 +95,8 @@
                                     </ul>
                                 </li>
                                 <li><a href="/web-portfolio/">Portfolio</a></li>
+<li><a href="/client-support/">Client Support</a></li>
 
-                                <li class="full-menu-parent">
-                                    <a href="/our-clients/">Clients</a><span class="fa open-sb-menu fa-chevron-down"></span>
-
-                                </li>
 
                                 <li><a href="/contact-us/">Contact Us</a>
 
